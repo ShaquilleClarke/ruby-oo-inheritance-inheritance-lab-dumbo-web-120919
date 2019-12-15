@@ -9,6 +9,10 @@ class Student < User
     @knowledge << what_i_know
   end
   
+  def knowledge
+    @knowledge
+  end
+  
   
 
 end
