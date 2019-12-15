@@ -6,9 +6,8 @@ class Student < User
     @knowledge = []
   end
   
-  def learn(knowledge)
-    what_i_know = self.learn
-    @knowledge << what_i_know
+  def learn(my_knowledge)
+    @knowledge << my_knowledge
   end
   
   def knowledge
