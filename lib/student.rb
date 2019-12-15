@@ -1,6 +1,6 @@
 class Student < User
   
-  def initialize(knowledge)
+  def initialize
     @knowledge = []
   end
   
@@ -8,5 +8,7 @@ class Student < User
     what_i_know = self.learn
     knowledge << what_i_know
   end
+  
+  
 
 end
